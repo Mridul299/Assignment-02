@@ -22,7 +22,9 @@
     box-sizing: border-box;
 }
 
-
+.nav-icon{
+    display: none;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -334,6 +336,11 @@
     .nav-items{
         display: none;
         
+    }
+    .nav-icon{
+        display: block;
+        color: white;
+        margin-right: 20px;
     }
     .navbar{
         width:100%;
