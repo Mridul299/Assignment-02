@@ -286,11 +286,48 @@
     .bg-color-2{
         background-color: black;
     }
+    /* running- section */
 
-
-
-
-
+    .running-section{
+        background-color: rgba(34, 34, 34, 1);
+        border-radius: 18px;
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 30px 32px 29px 52px;
+        margin-bottom: 100px;
+    }
+    .running-container{
+        max-width: 974px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .running-info-container{
+        max-width: 443px;
+        display: flex;
+        margin-top: 11px;
+    }
+    .run-title{
+        color: rgba(255, 255, 255, 1);
+        font-size: 3rem;
+        font-weight:900;
+    }
+    .run-dis{
+        color: rgba(255, 255, 255, 0.5);
+        font-size:1.14rem;
+        font-weight: 400;
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+    .run-image{
+        background-position: right;
+        background-size: cover;
+        width: 366px;
+        height: 312px;
+        border-radius: 18px;
+        background-image: url("../Assets/images/run.jpg");
+    }
+    
     
     /* responsive */
     @media screen and (max-width:576px) {
@@ -318,7 +355,6 @@
     }
     .banner-img{
         margin-top: -100px;
-        /* width: 100%; */
     }
     .bn-btns{
         display: flex;
@@ -338,6 +374,17 @@
     }
     .badges{
         justify-content:space-around;
+    }
+    .running-section{
+        margin: 20px;
+    }
+    .running-container{
+        flex-direction: column;
+        gap: 31px;
+    }
+    .run-image{
+        width:100%;
+        background-position: right;
     }
 
 }
