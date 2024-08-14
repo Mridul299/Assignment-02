@@ -544,7 +544,15 @@
     gap: 10px;
     margin-bottom: 34px;
 }
-
+.bmi-data{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 13px;
+}
+.button-cal{
+    margin-bottom: 52px;
+}
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-items{
