@@ -331,7 +331,7 @@
     }
     /* team-section */
     .team-section{
-        margin: 0 auto 300px;
+        margin: 0 auto 88px;
         max-width: 1060px;
     }
     .team-infor{
@@ -409,6 +409,71 @@
         font-size:1.14rem;
         font-weight:400;
     }
+    /* footer */
+    .foot-section{
+        max-width: 100%;
+        background-color:rgba(255, 255, 255, 0.1);
+        padding-top: 66px;
+        padding-bottom: 35px;
+
+        
+    }
+    .foot-container{
+        border: 1px solid white;
+        max-width: 1060px;
+        margin:0 auto;
+      
+        
+    }
+    .footer-information{
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info-cont-1{
+       max-width:440px;
+    }
+    .fot-logo{
+        font-size: 4.3rem;
+        font-weight:800;
+        color:rgba(230, 83, 60, 1);
+    }
+    .foot-dis{
+        color:rgba(255, 255, 255, 0.5);
+        font-size: 1.14rem;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .info-cont-2{
+        display: flex;
+        justify-content: space-between;
+        width: 514px;
+    }
+    .fot-title{
+        font-size:2rem;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 39px;
+
+    }
+    .foot-topics{
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    .footer-copyright{
+        height: 60px;
+        margin-top: 79px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+    .copy-right{
+        margin-top:30px;
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
     /* responsive */
     @media screen and (max-width:576px) {
     .nav-items{
@@ -480,5 +545,18 @@
    }
    #tem-member-igm-1,#tem-member-igm-4{
     display: none;
+   }
+   .foot-container{
+    padding: 20px;
+   }
+   .footer-information{
+    flex-direction: column;
+   }
+   .info-cont-2{
+    margin-top: 20px;
+    flex-direction: column;
+   }
+   .info-box-2{
+    margin-top: 20px;
    }
 }
