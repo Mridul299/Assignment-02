@@ -329,8 +329,90 @@
         border-radius: 18px;
         background-image: url("../Assets/images/run.jpg");
     }
+    /* team-section */
+    .team-section{
+        border: 1px solid white;
+        margin: 0 auto 300px;
+        max-width: 1060px;
+    }
+    .team-infor{
+        margin: 0 auto 58px;
+        text-align: center;
+        max-width: 671px;
+        border: 1px solid white;
+    }
+    .team-header{
+        color: white;
+        font-size:3rem;
+        font-weight:900;
+        margin-bottom: 14px;
+    }
+    .team-dis{
+        color: rgba(255, 255, 255, 0.5);
+        font-size:1.14rem;
+        font-weight:400;
+    }
+    .team-member-container{
+        border: 1px solid white;
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .team-member-img{
+        border: 1px solid green;
+        max-width: 326px;
+        border-radius: 18px;
+        height: 272px;
+        background-size: cover;
+    }
+    #tem-member-igm-1{
+        background-image: url("../Assets/images/trainer1.png");
+        background-size: cover;
+    }
     
+    #tem-member-igm-2{
+        background-image: url("../Assets/images/trainer2.png");
+        background-size: cover;
+    }
     
+    #tem-member-igm-3{
+        background-image: url("../Assets/images/trainer3.png");
+        background-size: cover;
+    }
+    
+    #tem-member-igm-4{
+        background-image: url("../Assets/images/trainer4.png");
+        background-size: cover;
+        background-position:center;
+    }
+    
+    #tem-member-igm-5{
+        background-image: url("../Assets/images/trainer5.png");
+        background-size: cover;
+    }
+    
+    #tem-member-igm-6{
+        background-image: url("../Assets/images/trainer6.png");
+        background-size: cover;
+    }
+    .member-names{
+        color: white;
+       margin-top: 200px;
+       margin-left: 20px;
+    }
+    .img-header{
+        color:rgba(255, 255, 255, 1);
+        font-size:1.25rem;
+        font-weight:900;
+    }
+    .img-dis{
+        color: rgba(255, 255, 255, 0.5);
+        font-size:1.14rem;
+        font-weight:400;
+    }
     /* responsive */
     @media screen and (max-width:576px) {
     .nav-items{
@@ -393,5 +475,9 @@
         width:100%;
         background-position: right;
     }
-
+    .team-member-container{
+        margin: 0 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
 }
