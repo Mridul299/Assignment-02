@@ -484,6 +484,63 @@
     font-size:1.14rem ;
     font-weight: 400;
 }
+/* calculator */
+.bmi-calculator{
+    max-width: 100%;
+    margin-bottom: 88px;
+    background-color: rgba(34, 34, 34, 1);
+    height: 500px;
+    padding-top: 49px;
+}
+.calculator-cont{
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    max-width: 1064px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 500px; */
+   
+}
+#bmi-title{
+    margin-bottom: 52px;
+}
+.bmi-chart{
+    /* border: 1px solid white; */
+}
+.bmi-calculator-system{
+    /* border: 1px solid white; */
+}
+.bmi-title{
+    color:rgba(255, 255, 255, 1) ;
+    font-size:1.75rem;
+    font-weight:900;
+}
+.bmi-table{
+    /* border: 1px solid white; */
+    max-width: 310px;
+    height: 216px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#th{
+    color:rgba(255, 255, 255, 1);
+    font-size:1rem;
+    font-weight:500;
+}
+.data{
+    border:0.5px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5) ;
+}
+.bmi-calculator-system-dis{
+    max-width: 577px;
+    /* border: 1px solid greenyellow; */
+    font-size:1.14rem ;
+    font-weight:400 ;
+    margin-top: 14px;
+    margin-bottom:34px;
+    color: rgba(255, 255, 255, 0.5);
+}
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-items{
@@ -578,4 +635,11 @@
    .bmi-section{
     padding: 20px;
    }
+   .calculator-cont{
+    flex-direction: column;
+    padding: 20px;
+   }
+   /* .bmi-chart{
+    flex-direction: column;
+   } */
 }
