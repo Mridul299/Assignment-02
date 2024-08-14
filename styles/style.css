@@ -467,6 +467,23 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
+/* challenge part */
+.bmi-section{
+    max-width:671px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+}
+.bmi-hedar{
+    color: #ffffff;
+    font-size:3rem ;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.bmi-dis{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:1.14rem ;
+    font-weight: 400;
+}
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-items{
@@ -557,5 +574,8 @@
    }
    .info-box-2{
     margin-top: 20px;
+   }
+   .bmi-section{
+    padding: 20px;
    }
 }
