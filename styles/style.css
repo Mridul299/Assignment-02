@@ -478,4 +478,7 @@
    .team-infor{
     margin: 20px;
    }
+   #tem-member-igm-1,#tem-member-igm-4{
+    display: none;
+   }
 }
