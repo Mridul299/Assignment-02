@@ -537,14 +537,35 @@
     margin-bottom:34px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 .form{
     /* border: 1px solid white; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr ;
+    grid-template-areas: "a b"
+                         "c d"
+                         "e e";
     gap: 10px;
     margin-bottom: 34px;
 }
-.bmi-data{
+#bmi-1{
+    grid-area: a;
+}
+#bmi-2{
+    grid-area: b;
+}
+#bmi-3{
+    grid-area: c;
+}
+#bmi-4{
+    grid-area: d;
+}
+#bmi-5{
+    grid-area: e;
+}
+
+.bmi-data,#bmi-4{
     background-color: transparent;
     color: rgba(255, 255, 255, 0.6);
     border-radius: 8px;
